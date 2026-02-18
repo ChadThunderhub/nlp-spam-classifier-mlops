@@ -299,7 +299,7 @@ elif choice == "📊 Model Analytics":
             
         st.subheader("📊 F1-Score Benchmark")
         
-        col_chart, col_info = st.columns([2, 1]) # Wykres szerszy (2), opis węższy (1)
+        col_chart, col_info = st.columns([2, 1])
         
         with col_chart:
             if os.path.exists('assets/f1_score_comparison.png'):
