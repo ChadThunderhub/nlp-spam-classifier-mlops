@@ -1,0 +1,10 @@
+venv/
+.git/
+.github/
+__pycache__/
+*.pyc
+*.ipynb
+spam_NLP.csv
+.DS_Store
+.ipynb_checkpoints/
+SI_projekt.ipynb.backup
