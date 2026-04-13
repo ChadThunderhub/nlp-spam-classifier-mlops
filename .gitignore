@@ -3,6 +3,5 @@ __pycache__/
 *.pyc
 *.egg-info/
 .git/
-.github/
 SI_projekt.ipynb.backup
 .ipynb_checkpoints/
