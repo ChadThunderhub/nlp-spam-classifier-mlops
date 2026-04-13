@@ -67,7 +67,7 @@ menu = ["🏠 System Overview", "🧠 Classification", "📊 Model Analytics"]
 choice = st.sidebar.radio("Menu", menu)
 st.sidebar.markdown("---")
 st.sidebar.info("👨‍💻 Author: Wiktor Pieprzowski")
-st.sidebar.info("📧 Mail: zoltamordemuzrob@gmail.com")
+st.sidebar.info("📧 LinedIn: www.linkedin.com/in/wiktor-pieprzowski")
 st.sidebar.info("🐱‍👤 GitHub: ChadThunderhub")
 st.sidebar.info("🚀 Stack: Streamlit, Scikit-Learn, NLTK")
 st.sidebar.info("🔧 Deployment: Docker + CI/CD")
