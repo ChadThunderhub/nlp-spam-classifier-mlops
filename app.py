@@ -36,9 +36,9 @@ def load_resources():
 
 @st.cache_resource
 def setup_nltk():
-    nltk.download('stopwords', quiet=True)
-    nltk.download('wordnet', quiet=True)
-    nltk.download('omw-1.4', quiet=True)
+    # nltk.download('stopwords', quiet=True)
+    # nltk.download('wordnet', quiet=True)
+    # nltk.download('omw-1.4', quiet=True)
     stop_words = set(stopwords.words('english'))
     lemmatizer = WordNetLemmatizer()
     return stop_words, lemmatizer
