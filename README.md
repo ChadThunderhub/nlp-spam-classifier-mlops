@@ -38,6 +38,6 @@ This repository showcases an end-to-end Machine Learning lifecycle. It starts wi
 4. Access the application at: http://localhost:8501
 
 To stop the application, run:
-    ```bash
-    docker-compose down
-    ```
+   ```bash
+   docker-compose down
+   ```
