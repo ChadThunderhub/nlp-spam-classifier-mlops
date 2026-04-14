@@ -28,11 +28,16 @@ This repository showcases an end-to-end Machine Learning lifecycle. It starts wi
    ```bash
    git clone https://github.com/ChadThunderhub/nlp-spam-classifier-mlops.git
    cd nlp-spam-classifier-mlops
+   ```
 
 2. Build and start the container in detached mode:
-    docker-compose up --build -d
+   ```bash
+   docker-compose up --build -d
+   ```
 
-3. Access the application at: http://localhost:8501
+4. Access the application at: http://localhost:8501
 
 To stop the application, run:
+    ```
     docker-compose down
+    ```
